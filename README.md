@@ -3,6 +3,8 @@ ruby-jison
 
 Ruby, Jison Compiler
 
+[Jison is Your friendly JavaScript parser generator!](http://zaach.github.io/jison/)
+
 ```Ruby
 require 'jison'
 javascript_text = Jison.compile File.read('/path/to/grammar.js.jison')
