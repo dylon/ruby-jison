@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
     Wrapper around the jison, npm module that compiles Jison grammars and
     returns the corresponding, JavaScript text.
 
-		Jison is Your friendly JavaScript parser generator!
+    Jison is Your friendly JavaScript parser generator!
 
-		http://zaach.github.io/jison/
+    http://zaach.github.io/jison/
   EOS
 
   s.files = Dir.glob('lib/**/*.rb')
