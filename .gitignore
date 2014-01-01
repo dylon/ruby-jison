@@ -1,7 +1,7 @@
 *
 !*/
 !/.gitignore
-!/LICENSE
+!/MIT-LICENSE
 !/README.md
 !/jison.gemspec
 !/lib/**/*.rb
