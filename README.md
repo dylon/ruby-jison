@@ -35,8 +35,8 @@ Errno::ENOENT: No such file or directory - jison
         ...
 ```
 
-then you probably do not have the jison, npm module installed or it is not on
-your `$PATH`.
+then you probably do not have the [jison, npm module](https://npmjs.org/package/jison "jison")
+installed or it is not on your `$PATH`.
 
 Operations
 ----------
