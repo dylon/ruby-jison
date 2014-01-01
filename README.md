@@ -48,6 +48,7 @@ representing its JavaScript equivalent.
 
 ```Ruby
 require 'jison'
+
 begin
   # `grammar` is a string consisting of a Jison grammar
   javascript_text = Jison.parse(grammar)
@@ -71,16 +72,21 @@ and may be compared against other `Jison::Version`s, `String`s and `Fixnum`s.
 
 ```Ruby
 require 'jison'
+
 version = Jison.version
 version.class #-> Jison::Version
 version.to_s #-> "0.4.13"
+
 version.major #-> 0
 version.minor #-> 4
 version.micro #-> 13
+
 version == version #-> true
+
 version < Jison::Version.new(1,0,0) #-> true
 version > Jison::Version.from_string '0.1.0' #-> true
 version > Jison::Version.new(1) #-> false
+
 version.between?(0,1) #-> true
 version.between?(1,2) #-> false
 version.between?('0.1', '0.5') #-> true
