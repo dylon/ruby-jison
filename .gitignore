@@ -4,4 +4,4 @@
 !/LICENSE
 !/README.md
 !/jison.gemspec
-!/lib/*.rb
+!/lib/**/*.rb
