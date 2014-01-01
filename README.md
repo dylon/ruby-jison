@@ -7,7 +7,7 @@ Ruby, Jison Compiler
 
 ```Ruby
 require 'jison'
-javascript_text = Jison.compile File.read('/path/to/grammar.js.jison')
+javascript_text = Jison.parse File.read('/path/to/grammar.js.jison')
 ```
 
 Prerequesites
